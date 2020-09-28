@@ -43,19 +43,16 @@ nav {
 
 .nav-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 
-.nav-links {
-    position: absolute;    
+.nav-links {    
     display: flex;
     justify-content: space-around;
     width: 60%;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    margin-right: -65vh;
 }
 
 .nav-links li {
