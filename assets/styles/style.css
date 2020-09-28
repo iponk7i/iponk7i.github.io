@@ -183,7 +183,7 @@ footer {
 }
 
 @media screen and (max-width:1000px) {
-    html, body, .wrapper {
+    .wrapper {
         position: relative;
         overflow-x: hidden;
     }
