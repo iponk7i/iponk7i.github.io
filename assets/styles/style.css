@@ -41,7 +41,7 @@ nav {
     width: 100%;
 }
 
-.menu {
+.nav-wrap {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -228,7 +228,7 @@ footer {
     }
 }
 
-.menu-active {
+.nav-active {
     transform: translateX(0%);
 }
 
